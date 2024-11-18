@@ -1,0 +1,14 @@
+[
+  {
+    "email": "123@123.nl",
+    "password": "$2a$10$DGAIKAzh/mj8Pp7zRgP/0eZLDbAdQM7UCnyMpqNtOKHllYkDrAqii"
+  },
+  {
+    "email": "ik@ik.nl",
+    "password": "$2a$10$M/dLqSsOMSfXuWnAsayaXuHnrEkoU3jt3onP9oD4UilRlnSUpDv1K"
+  },
+  {
+    "email": "1234@1234",
+    "password": "$2a$10$zXmHalf432tP4rVMgBNXFOD0M6CYYHGpU2a2Xh4H5Pv33QQbyFeh."
+  }
+]
