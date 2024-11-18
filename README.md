@@ -2,10 +2,15 @@
 
 ### How to run
 Open folder in visual studio code.
+
 Open the terminal.
+
 Type "npm run dev".
+
 For Register open: "localhost:3000/register"
+
 For login open: "localhost:3000/login".
+
 Hashed passwords now show in "data/users.json".
 
 ### Login- en Registratiesysteem
