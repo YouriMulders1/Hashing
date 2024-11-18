@@ -3,7 +3,7 @@ import { readUsers, writeUsers } from '../../lib/JsonDb';
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
-        // Verkrijg e-mail en wachtwoord uit de aanvraag
+        // krijg e-mail en wachtwoord uit de request
         const { email, password } = req.body;
 
         // Controleer of zowel e-mail als wachtwoord zijn opgegeven

@@ -21,7 +21,7 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'Ongeldige e-mail of wachtwoord' });
         }
 
-        // Vergelijk het ingevoerde wachtwoord met het versleutelde wachtwoord in de database
+        // Vergelijk het ingevoerde wachtwoord met het hashed wachtwoord in de database
         const isMatch = await bcrypt.compare(password, user.password);
 
         // Als het wachtwoord niet overeenkomt, stuur een foutmelding
@@ -29,7 +29,7 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'Ongeldige e-mail of wachtwoord' });
         }
 
-        // Als alles correct is, stuur een succesbericht
+        // Als alles correct is
         res.status(200).json({ message: 'Ingelogd' });
     } else {
         // Als de HTTP-methode niet POST is, stuur een foutmelding
