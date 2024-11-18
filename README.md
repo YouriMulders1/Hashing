@@ -1,3 +1,13 @@
+# Hashing
+
+## How to run
+Open folder in visual studio code.
+Open the terminal.
+Type "npm run dev".
+For Register open: "localhost:3000/register"
+For login open: "localhost:3000/login".
+Hashed passwords now show in "data/users.json".
+
 Login- en Registratiesysteem
 Dit project biedt een eenvoudige implementatie van een login- en registratiesysteem met wachtwoordbeveiliging. Het systeem maakt gebruik van hashing om wachtwoorden veilig op te slaan, wat zorgt voor privacy en bescherming van gebruikersgegevens.
 
