@@ -8,14 +8,12 @@ For Register open: "localhost:3000/register"
 For login open: "localhost:3000/login".
 Hashed passwords now show in "data/users.json".
 
-#Login- en Registratiesysteem
+# Login- en Registratiesysteem
 Dit project biedt een eenvoudige implementatie van een login- en registratiesysteem met wachtwoordbeveiliging. Het systeem maakt gebruik van hashing om wachtwoorden veilig op te slaan, wat zorgt voor privacy en bescherming van gebruikersgegevens.
 
 Gebruik de applicatie door naar de registratie- en loginpagina te navigeren via een browser.
 
-Uitleg van de Implementatie
 # In dit systeem:
-
 Wachtwoord Invoer: 
 De gebruiker wordt gevraagd een wachtwoord in te voeren tijdens de registratie.
 
@@ -30,7 +28,6 @@ Tijdens de hashing wordt een salt toegevoegd. Dit zorgt ervoor dat zelfs als twe
 
 
 # Behandelingen voor Uitzonderingen en Fouten
-
 Lege Invoer: 
 De applicatie controleert of de invoer van de gebruiker niet leeg is voordat deze wordt verwerkt.
 Hashfouten: 
